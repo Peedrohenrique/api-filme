@@ -1,30 +1,21 @@
 const express = require("express");
-const app = express();
 const cors = require("cors");
+const server = express();
 const filmes = require("./src/data/filmes.json");
 
-app.use(express.json());
+server.use(express.json());
 
-app.use((req, res, next) => {
+server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
-  app.use(cors());
+  server.use(cors());
   next();
 });
 
 //Rotas
-
-app.get("/filmes", (req, res) => {
-  try {
-    res.json({
-      status: 200,
-      filmes,
-    });
-  } catch (error) {
-    console.error(error);
-    return req.status(500).send("Server error");
-  }
+server.get("/filmes", (req, res) => {
+  return res.json(filmes);
 });
 
-app.listen(3000, () => {
+server.listen(3000, () => {
   console.log("Servidor está funcionado...");
 });
