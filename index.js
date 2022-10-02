@@ -12,8 +12,17 @@ app.use((req, res, next) => {
 });
 
 //Rotas
+
 app.get("/filmes", (req, res) => {
-  return res.json(filmes);
+  try {
+    res.json({
+      status: 200,
+      filmes,
+    });
+  } catch (error) {
+    console.error(error);
+    return req.status(500).send("Server error");
+  }
 });
 
 app.listen(3000, () => {
