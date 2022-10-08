@@ -1,21 +1,15 @@
 const express = require("express");
-const cors = require("cors");
-const server = express();
+const app = express();
+const port = process.env.PORT || 3000;
 const filmes = require("./src/data/filmes.json");
 
-server.use(express.json());
-
-server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  server.use(cors());
-  next();
-});
+app.use(express.json());
 
 //Rotas
-server.get("/filmes", (req, res) => {
+app.get("/filmes", (req, res) => {
   return res.json(filmes);
 });
 
-server.listen(3000, () => {
+app.listen(port, () => {
   console.log("Servidor está funcionado...");
 });
