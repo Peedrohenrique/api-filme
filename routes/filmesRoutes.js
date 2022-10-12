@@ -1,9 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const filmes = require("../src/data/filmes.json");
+const ControllerFilmes = require("../controllers/ControllerFilmes");
 
-router.get("/filmes", (req, res) => {
-  return res.json(filmes);
-});
-
+router.get("/filmes", ControllerFilmes.getAll);
+router.get("/filmes/:id", ControllerFilmes.getFindOne);
 module.exports = router;
