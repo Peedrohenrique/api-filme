@@ -3,11 +3,7 @@
     "id": "1",
     "name": "Lou",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iH1KYkFnzdQYKuyNYOjb07UR7Ug.jpg",
-    "description": "Lou leva uma vida tranquila, acreditando ter abandonado seu passado perigoso. Até que uma mulher desesperada implora a ajuda dela para salvar a filha sequestrada. Em meio a uma grande tempestade, as duas se arriscam em uma missão de resgate que coloca seus limites à prova e revela terríveis segredos do passado.",
-    "cast":[
-      {"name":"Allison Janney"},
-      {"person":"Lou"}
-    ]
+    "description": "Lou leva uma vida tranquila, acreditando ter abandonado seu passado perigoso. Até que uma mulher desesperada implora a ajuda dela para salvar a filha sequestrada. Em meio a uma grande tempestade, as duas se arriscam em uma missão de resgate que coloca seus limites à prova e revela terríveis segredos do passado."
   },
   {
     "id": "2",
@@ -62,5 +58,35 @@
     "name": "Homem-Aranha: Sem Volta Para Casa",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fVzXp3NwovUlLe7fvoRynCmBPNc.jpg",
     "description": "Após a estranha morte de seu avô (Terence Stamp), o jovem Jake (Asa Butterfield) parte com seu pai para o País de Gales. Lá ele pretende encontrar a srta. Peregrine (Eva Green), atendendo ao último pedido do avô, que lhe disse que 'ela contará' tudo."
+  },
+  {
+    "id": "11",
+    "name": "Operação Cerveja",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/purjgeOOOZKJ9MIHTyGdAJ0LsJE.jpg",
+    "description": "Chickie quer apoiar seus amigos que estão lutando na guerra do Vietnã e resolve fazer algo inusitado – pessoalmente levar cerveja americana para eles. O que começa como uma jornada bem intencionada, muda rapidamente a vida e as perspectivas de Chickie. Baseado em uma história real."
+  },
+  {
+    "id": "12",
+    "name": "Ameaça a Bordo",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nZY9zf7z0Gy3bFOpwf0qOgJKaX7.jpg",
+    "description": "Bella é uma jovem problemática. Ao herdar um iate do pai distante, ela se vê em perigo quando três ladrões o sequestram. Agora, ela precisa lutar para sobreviver."
+  },
+  {
+    "id": "13",
+    "name": "Lobisomem na Noite",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/N9jyoeH3wKhiHYNYLE9Pnnls9D.jpg",
+    "description": "Em uma noite escura e sombria, uma cabala secreta de caçadores de monstros emerge das sombras e se reúne no templo de Bloodstone após a morte de seu líder. Em um estranho e macabro memorial à vida do líder, os participantes são lançados em uma misteriosa e mortal competição por uma poderosa relíquia – uma caçada que acabará por colocá-los cara a cara com um monstro perigoso."
+  },
+  {
+    "id": "14",
+    "name": "The Walking Dead",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xf9wuDcqlUPWABZNeDKPbZUjWx0.jpg",
+    "description": "Nos Estados Unidos pós-apocalíptico, um pequeno grupo de sobreviventes segue viajando à procura de uma nova casa longe dos mortos-vivos. O desespero por segurança e suprimentos os coloca constantemente à beira da sanidade."
+  },
+  {
+    "id": "15",
+    "name": "O Telefone do Sr. Harrigan",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aFzXkidtKdzlzVItb2ZOiE7p8yt.jpg",
+    "description": "Craig (Jaeden Martell) é um garoto do interior que faz uma amizade improvável com o Sr. Harrigan (Donald Sutherland), um bilionário idoso e recluso. O vínculo entre os dois nasce da paixão em comum que os dois têm por livros. Após a morte do Sr. Harrigan, Craig se surpreende com a possibilidade de se comunicar com o amigo por um celular que foi enterrado com ele. Esta história sobrenatural de amadurecimento mostra que algumas ligações jamais são perdidas."
   }
 ]
