@@ -10,7 +10,7 @@ module.exports = {
 
   //Pegar apenas um filme do Array!
   getFindOne(id) {
-    const filme = filmes.find((film) => film.id === id);
+    const filme = filmes.find((film) => film.id === parseInt(id));
     return filme;
   },
 };
