@@ -8,8 +8,8 @@ const ControllerFilmes = require("../controllers/ControllerFilmes");
 const ControllerFilmesComedia = require("../controllers/ControllerComedia");
 
 //Endpoint dos Ação de Comédia
-router.get("/acao", ControllerFilmesComedia.getAll);
-router.get("/acao/:id", ControllerFilmesComedia.getFindOne);
+router.get("/acao", ControllerAcao.getAll);
+router.get("/acao/:id", ControllerAcao.getFindOne);
 //Endpoint do Banner
 router.get("/banner", ControllerBanner.getAll);
 //
