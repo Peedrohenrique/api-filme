@@ -4,14 +4,14 @@ const router = express.Router();
 const ControllerBanner = require("../controllers/ControllerBanner");
 //Filmes
 
-const ControllerFilmes = require("../controllers/ControllerFilmes");
+const ControllerAcao = require("../controllers/ControllerAcao");
 const ControllerFilmesComedia = require("../controllers/ControllerComedia");
 
 //Endpoint do Banner
 router.get("/banner", ControllerBanner.getAll);
 //
-router.get("/filmes", ControllerFilmes.getAll);
-router.get("/filmes/:id", ControllerFilmes.getFindOne);
+router.get("/acao", ControllerAcao.getAll);
+router.get("/acao/:id", ControllerAcao.getFindOne);
 //Endpoint dos Filmes de Comédia
 router.get("/comedia", ControllerFilmesComedia.getAll);
 router.get("/comedia/:id", ControllerFilmesComedia.getFindOne);

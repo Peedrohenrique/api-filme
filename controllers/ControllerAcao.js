@@ -1,10 +1,10 @@
 //const filmes = require("../src/data/filmes.json");
-const modelFilmes = require("../models/ModelFilmes");
+const modelAcao = require("../models/ModelAcao");
 
 module.exports = {
   async getAll(req, res) {
     try {
-      const filmes = await modelFilmes.getAll();
+      const filmes = await modelAcao.getAll();
       return res.status(200).json(filmes);
     } catch (error) {
       return res.status(500).json(error.message);
@@ -14,7 +14,7 @@ module.exports = {
   async getFindOne(req, res) {
     const { id } = req.params;
     try {
-      const filme = await modelFilmes.getFindOne(id);
+      const filme = await modelAcao.getFindOne(id);
       return res.status(200).json(filme);
     } catch (error) {
       return res.status(500).json(error.message);
