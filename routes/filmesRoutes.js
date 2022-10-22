@@ -4,7 +4,7 @@ const router = express.Router();
 const ControllerBanner = require("../controllers/ControllerBanner");
 //Filmes
 const ControllerFilmes = require("../controllers/ControllerFilmes");
-const ControllerFilmesComedia = require("../controllers/ControllerFilmesComedia");
+const ControllerFilmesComedia = require("../controllers/ControllerComedia");
 
 //Endpoint do Banner
 router.get("/banner", ControllerBanner.getAll);
