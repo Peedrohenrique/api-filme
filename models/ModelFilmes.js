@@ -4,7 +4,7 @@ const filmes = require("../src/data/filmes.json");
 module.exports = {
   //Pegar Todos os filmes do Array!
   getAll() {
-    const film = Filmes;
+    const film = filmes;
     return film;
   },
 
