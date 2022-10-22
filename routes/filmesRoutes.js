@@ -3,13 +3,10 @@ const router = express.Router();
 //Banner
 const ControllerBanner = require("../controllers/ControllerBanner");
 //Filmes
-const ControllerAcao = require("../controllers/ControllerAcao");
+
 const ControllerFilmes = require("../controllers/ControllerFilmes");
 const ControllerFilmesComedia = require("../controllers/ControllerComedia");
 
-//Endpoint dos Ação de Comédia
-router.get("/acao", ControllerFilmes.getAllAcao);
-router.get("/acao/:id", ControllerFilmes.getFindOneAcao);
 //Endpoint do Banner
 router.get("/banner", ControllerBanner.getAll);
 //
