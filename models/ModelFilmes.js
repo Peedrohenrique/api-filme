@@ -1,5 +1,5 @@
 //Conexão com array de Filmes!
-const Filmes = require("../src/data/filmes.json");
+const filmes = require("../src/data/filmes.json");
 
 module.exports = {
   //Pegar Todos os filmes do Array!
@@ -10,7 +10,7 @@ module.exports = {
 
   //Pegar apenas um filme do Array!
   getFindOne(id) {
-    const filme = Filmes.find((film) => film.id === parseInt(id));
+    const filme = filmes.find((film) => film.id === parseInt(id));
     return filme;
   },
 };
