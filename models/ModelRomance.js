@@ -1,5 +1,5 @@
 //Conexão com array de Filmes!
-const Romance = require("../src/data/Romance.json");
+const Romance = require("../src/data/romance.json");
 
 module.exports = {
   //Pegar Todos os filmes do Array!

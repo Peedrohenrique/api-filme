@@ -1,5 +1,5 @@
 //Conexão com array de Filmes!
-const Comedia = require("../src/data/Comedia.json");
+const Comedia = require("../src/data/comedia.json");
 
 module.exports = {
   //Pegar Todos os filmes do Array!

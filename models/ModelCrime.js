@@ -1,5 +1,5 @@
 //Conexão com array de Filmes!
-const Crime = require("../src/data/Crime.json");
+const Crime = require("../src/data/crime.json");
 
 module.exports = {
   //Pegar Todos os filmes do Array!

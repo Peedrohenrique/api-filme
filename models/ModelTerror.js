@@ -1,5 +1,5 @@
 //Conexão com array de Filmes!
-const Terror = require("../src/data/Terror.json");
+const Terror = require("../src/data/terror.json");
 
 module.exports = {
   //Pegar Todos os filmes do Array!

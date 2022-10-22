@@ -1,5 +1,5 @@
 //Conexão com array de Filmes!
-const Animacao = require("../src/data/Animacao.json");
+const Animacao = require("../src/data/animacao.json");
 
 module.exports = {
   //Pegar Todos os filmes do Array!
