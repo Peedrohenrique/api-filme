@@ -1,10 +1,10 @@
 //Conexão com array de Filmes!
-const banner = require("../src/data/banner.json");
+const Banner = require("../src/data/Banner.json");
 
 module.exports = {
   //Pegar Todos os Banner do Array!
   getAll() {
-    const film = banner;
+    const film = Banner;
     return film;
   },
 };

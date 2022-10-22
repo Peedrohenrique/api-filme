@@ -16,17 +16,17 @@
         "name": "A Pequena Sereia",
         "image": "https://cafecomnerd.com.br/wp-content/uploads/2022/10/A-Pequena-Sereia-Halle-Bailey-como-Ariel-em-poster-do-live-action-da-Disney.jpg",
         "description": "Ariel é uma sereia princesa de dezesseis anos de idade insatisfeita com a vida no fundo do mar e curiosa sobre o mundo na terra. Ela se apaixona por um príncipe humano e faz um acordo com a bruxa do mar para transformar-se em humana."
-      },
-      {
+    },
+    {
         "id": 4,
         "name": "Encontro com o Acaso",
         "image": "https://ottvsimg.ottvs.com.br/res/banner/47b65355-b2f7-4045-8680-b2d5641f603e.jpg",
         "description": "Enquanto tenta iniciar a carreira de modelo, Brier conhece o músico Luke no metrô de Nova York. Anos depois em Los Angeles, eles acabam se reencontrando. Brier ajuda Luke a alcançar o sucesso e os dois descobrem o preço da fama em suas vidas."
-      },
-      {
+    },
+    {
         "id": 5,
         "name": "Sombras do Terror",
         "image": "https://ottvsimg.ottvs.com.br/res/banner/b459221d-435c-4b41-91cd-7fee23e1466b.jpg",
         "description": "Adolescente que mora com o avô abusivo tenta proteger o melhor amigo contra os valentões da escola. Ao descobrir uma criatura assassina em seu galpão de ferramentas, ele e o colega bolam um plano de vingança."
-      }
+    }
   ]
