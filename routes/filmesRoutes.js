@@ -2,9 +2,9 @@ const express = require("express");
 const router = express.Router();
 //Banner
 const ControllerBanner = require("../controllers/ControllerBanner");
-//Filmes
+const ControllerBannerTerror = require("../controllers/ControllerBannerTerror");
 
-//const ControllerFilmes = require("../controllers/ControllerFilmes");
+//Filmes
 const ControllerFilmesComedia = require("../controllers/ControllerComedia");
 const ControllerDocumentario = require("../controllers/ControllerDocumentario");
 const ControllerAcao = require("../controllers/ControllerAcao");
@@ -12,9 +12,8 @@ const ControllerRomance = require("../controllers/ControllerRomance");
 
 //Endpoint do Banner
 router.get("/banner", ControllerBanner.getAll);
-//
-// router.get("/filmes", ControllerFilmes.getAll);
-// router.get("/filmes/:id", ControllerFilmes.getFindOne);
+router.get("/bannerTerror", ControllerBannerTerror.getAll);
+
 //Endpoint dos Filmes de Comédia
 router.get("/comedia", ControllerFilmesComedia.getAll);
 router.get("/comedia/:id", ControllerFilmesComedia.getFindOne);
