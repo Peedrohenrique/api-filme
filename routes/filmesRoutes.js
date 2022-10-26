@@ -10,6 +10,8 @@ const ControllerDocumentario = require("../controllers/ControllerDocumentario");
 const ControllerAcao = require("../controllers/ControllerAcao");
 const ControllerRomance = require("../controllers/ControllerRomance");
 const ControllerAnimacao = require("../controllers/ControllerAnimacao");
+const ControllerCrime = require("../controllers/ControllerCrime");
+const ControllerTerror = require("../controllers/ControllerTerror");
 
 //Endpoint do Banner
 router.get("/banner", ControllerBanner.getAll);
@@ -30,5 +32,11 @@ router.get("/romance/:id", ControllerRomance.getFindOne);
 //Endpoint dos Filmes de Animação
 router.get("/animacao", ControllerAnimacao.getAll);
 router.get("/animacao/:id", ControllerAnimacao.getFindOne);
+//Endpoint dos Filmes de Crime
+router.get("/crime", ControllerCrime.getAll);
+router.get("/crime/:id", ControllerCrime.getFindOne);
+//Endpoint dos Filmes de Terror
+router.get("/terror", ControllerTerror.getAll);
+router.get("/terror/:id", ControllerTerror.getFindOne);
 
 module.exports = router;
