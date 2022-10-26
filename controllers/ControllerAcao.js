@@ -1,4 +1,3 @@
-//const filmes = require("../src/data/filmes.json");
 const filmesDeAcao = require("../models/ModelAcao");
 
 module.exports = {
